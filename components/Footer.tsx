@@ -2,34 +2,18 @@ import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 
+const instLink = 'https://www.instagram.com/cad.dnipro/';
+const youtubeLink = 'https://www.youtube.com/@%D0%A1%D0%90%D0%94.%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE';
+const linktrLink = 'https://linktr.ee/cad_dnipro?fbclid=PAZXh0bgNhZW0CMTEAAaeBO28w8I30qDDyf7BMFh2nmeLOrODgxfzJEJpSJ7tahT0yxESzAVO8r0VkUQ_aem_fu1TmlzN7yvSoWHa4vh5RA';
+
 export default function Footer() {
   return (
     <footer>
       <div className="mt-16 flex flex-col items-center">
-        <div className="mb-3 flex space-x-4">
-          <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
-          <SocialIcon kind="github" href={siteMetadata.github} size={6} />
-          <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
-          <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} />
-          <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
-          <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
-          <SocialIcon kind="bluesky" href={siteMetadata.bluesky} size={6} />
-          <SocialIcon kind="x" href={siteMetadata.x} size={6} />
-          <SocialIcon kind="instagram" href={siteMetadata.instagram} size={6} />
-          <SocialIcon kind="threads" href={siteMetadata.threads} size={6} />
-          <SocialIcon kind="medium" href={siteMetadata.medium} size={6} />
-        </div>
-        <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <div>{siteMetadata.author}</div>
-          <div>{` • `}</div>
-          <div>{`© ${new Date().getFullYear()}`}</div>
-          <div>{` • `}</div>
-          <Link href="/">{siteMetadata.title}</Link>
-        </div>
-        <div className="mb-8 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
-            Tailwind Nextjs Theme
-          </Link>
+        <div className="mb-8 flex space-x-4">
+          <SocialIcon kind="instagram" href={instLink} size={6} />
+          <SocialIcon kind="youtube" href={youtubeLink} size={6} />
+          <SocialIcon kind="threads" href={linktrLink} size={6} />
         </div>
       </div>
     </footer>
