@@ -1,9 +1,10 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'САД - Спілка Антикорупціонерів Дніпра',
-  author: 'Nikita',
+  author: 'Illia',
   headerTitle: 'CAD Blog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description:
+    'Ми займаємося боротьбою з корупцією у навчальних закладах Дніпра, захистом прав студентів та організацією культурних заходів для молоді нашого міста',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://google.com',
