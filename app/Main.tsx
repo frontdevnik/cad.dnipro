@@ -16,7 +16,8 @@ export default function Home({ posts }) {
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {/* {siteMetadata.description} */}
-            Ми займаємося боротьбою з корупцією у навчальних закладах Дніпра, захистом прав студентів та організацією культурних заходів для молоді нашого міста.
+            Ми займаємося боротьбою з корупцією у навчальних закладах Дніпра, захистом прав
+            студентів та організацією культурних заходів для молоді нашого міста.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -40,7 +41,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl leading-8 font-bold tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100 hover:cursor-pointer"
+                              className="text-gray-900 hover:cursor-pointer dark:text-gray-100"
                             >
                               {title}
                             </Link>

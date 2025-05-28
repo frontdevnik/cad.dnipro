@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className={headerClass}>
       <Link href="/" aria-label={siteMetadata.headerTitle}>
-        <div className="flex items-center justify-between ">
+        <div className="flex items-center justify-between">
           <div className="rounded">
             <Image src={Logo2} alt="Logo" width={180} className="rounded" />
             {/* <Logo /> */}
@@ -41,7 +41,10 @@ const Header = () => {
                 href={link.href}
                 className="hover:text-primary-500 dark:hover:text-primary-400 m-1 font-medium text-gray-900 dark:text-gray-100"
                 aria-disabled={link.disabled}
-                style={{ pointerEvents: link.disabled ? 'none' : 'auto', opacity: link.disabled ? 0.5 : 1 }}
+                style={{
+                  pointerEvents: link.disabled ? 'none' : 'auto',
+                  opacity: link.disabled ? 0.5 : 1,
+                }}
               >
                 {link.title}
               </Link>

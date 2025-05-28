@@ -2,9 +2,11 @@ import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 
-const instLink = 'https://www.instagram.com/cad.dnipro/';
-const youtubeLink = 'https://www.youtube.com/@%D0%A1%D0%90%D0%94.%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE';
-const linktrLink = 'https://linktr.ee/cad_dnipro?fbclid=PAZXh0bgNhZW0CMTEAAaeBO28w8I30qDDyf7BMFh2nmeLOrODgxfzJEJpSJ7tahT0yxESzAVO8r0VkUQ_aem_fu1TmlzN7yvSoWHa4vh5RA';
+const instLink = 'https://www.instagram.com/cad.dnipro/'
+const youtubeLink =
+  'https://www.youtube.com/@%D0%A1%D0%90%D0%94.%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE'
+const linktrLink =
+  'https://linktr.ee/cad_dnipro?fbclid=PAZXh0bgNhZW0CMTEAAaeBO28w8I30qDDyf7BMFh2nmeLOrODgxfzJEJpSJ7tahT0yxESzAVO8r0VkUQ_aem_fu1TmlzN7yvSoWHa4vh5RA'
 
 export default function Footer() {
   return (
